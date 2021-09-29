@@ -1,4 +1,4 @@
-package Task1;
+package Lab1.Task1;
 
 /**
  * A Simple Java TCP Client Server Program

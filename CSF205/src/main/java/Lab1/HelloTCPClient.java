@@ -1,4 +1,4 @@
-package Task1;
+package Lab1.Task1;
 
 /**
  * A Simple Java TCP Client Server Program
@@ -11,12 +11,7 @@ package Task1;
  * actions.
  */
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Random;
 
