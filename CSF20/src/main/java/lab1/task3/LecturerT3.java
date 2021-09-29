@@ -1,18 +1,18 @@
-package lab1.task2;
+package lab1.task3;
 
 import lab1.util.ObjectCreatedException;
 
-public class LecturerT1 extends PersonT1 {
+public class LecturerT3 extends PersonT3 {
     private Integer staffId;
     private String officeLocation;
 
-    public LecturerT1(String name, Integer staffId) throws ObjectCreatedException {
+    public LecturerT3(String name, Integer staffId) throws ObjectCreatedException {
         super(name);
         setStaffId(staffId);
         System.out.println("lecturer constructor");
     }
 
-    public LecturerT1(String name, Integer staffId, String officeLocation) throws ObjectCreatedException {
+    public LecturerT3(String name, Integer staffId, String officeLocation) throws ObjectCreatedException {
         super(name);
         setStaffId(staffId);
         this.officeLocation = officeLocation;
@@ -37,6 +37,11 @@ public class LecturerT1 extends PersonT1 {
 
     public void setOfficeLocation(String officeLocation) {
         this.officeLocation = officeLocation;
+    }
+
+    @Override
+    public void sayHello(){
+        System.out.println("hello you");
     }
 
     @Override

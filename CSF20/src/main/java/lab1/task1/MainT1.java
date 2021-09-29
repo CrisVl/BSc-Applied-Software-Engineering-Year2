@@ -26,6 +26,7 @@ public class MainT1 {
         System.out.println(emptyLecturer.getName() + emptyLecturer.getStaffId());
 
         LecturerT1 lecturerWithOffice = new LecturerT1("Rama", 123, "Computational Foundry 413");
+        System.out.println(lecturerWithOffice);
     }
 
 }

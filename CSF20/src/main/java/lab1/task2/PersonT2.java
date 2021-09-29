@@ -2,10 +2,10 @@ package lab1.task2;
 
 import lab1.util.ObjectCreatedException;
 
-public class PersonT1 {
+public class PersonT2 {
     private String name;
 
-    public PersonT1(String name) throws ObjectCreatedException {
+    public PersonT2(String name) throws ObjectCreatedException {
         setName(name);
         System.out.println("person constructor");
     }
