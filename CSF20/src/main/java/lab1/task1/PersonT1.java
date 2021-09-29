@@ -1,9 +1,11 @@
-package lab1.uni.course;
+package lab1.task1;
 
-public class Person {
+import lab1.util.ObjectCreatedException;
+
+public class PersonT1 {
     private String name;
 
-    public Person(String name) throws ObjectCreatedException {
+    public PersonT1(String name) throws ObjectCreatedException {
         setName(name);
         System.out.println("person constructor");
     }

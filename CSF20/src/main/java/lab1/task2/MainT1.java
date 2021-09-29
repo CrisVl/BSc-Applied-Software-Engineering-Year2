@@ -1,27 +1,31 @@
-package lab1.uni.course;
+package lab1.task2;
 
-public class Main {
+import lab1.util.ObjectCreatedException;
+
+public class MainT1 {
     public static void main(String[] args) throws ObjectCreatedException {
-        Person person = new Person("Joe Dow");
+        PersonT1 person = new PersonT1("Joe Dow");
         System.out.println(person.getName());
 
-        Person nullName = new Person(null);
+        PersonT1 nullName = new PersonT1(null);
         System.out.println(nullName.getName());
 
-        Person empty = new Person("");
+        PersonT1 empty = new PersonT1("");
         System.out.println(empty.getName());
 
 
-        Lecturer lecturer = new Lecturer("Tom B", 1234);
+        LecturerT1 lecturer = new LecturerT1("Tom B", 1234);
         System.out.println(lecturer.getName());
         System.out.println(lecturer.getStaffId());
 
-        Lecturer nullLecturer = new Lecturer(null, null);
+        LecturerT1 nullLecturer = new LecturerT1(null, null);
         System.out.println(nullLecturer.getName());
         System.out.println(nullLecturer.getStaffId());
 
-        Lecturer emptyLecturer = new Lecturer(null, 0);
+        LecturerT1 emptyLecturer = new LecturerT1(null, 0);
         System.out.println(emptyLecturer.getName() + emptyLecturer.getStaffId());
+
+        LecturerT1 lecturerWithOffice = new LecturerT1("Rama", 123, "Computational Foundry 413");
     }
 
 }
